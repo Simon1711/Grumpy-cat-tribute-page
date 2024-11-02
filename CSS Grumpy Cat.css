@@ -1,0 +1,82 @@
+header {    background-color: #D3D3D3;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0;   
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+#image {
+    max-width: 100%; 
+    height: auto;
+    display: block  
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 0;
+    margin: 0;
+}
+#img-div {
+    margin: 0; 
+}
+#img-caption {
+    margin-top: 10px; 
+    font-style: italic;
+    color: #777;
+    text-align: center; 
+    font-size: 14px;
+}
+header p {
+    padding-top: 10px; 
+}
+@media (max-width: 600px) {
+    header {
+        padding: 15px;
+}
+#tribute-info {
+font-size: 16px;
+color: #333;
+background-color: #D3D3D3;
+margin: 20px auto;
+padding: 15px;
+max-width: 800px;
+font-family: 'Merriweather', serif;
+text-align: center;
+}
+#tribute-info ul {
+ margin: 0 auto;
+ display: inline-block;
+ text-align: left;    
+}
+#tribute-info li {
+    margin-bottom: 15px; 
+}
+blockquote {
+   margin: 10px auto;
+   padding: 10px 20px;
+   font-style: italic;
+   color: #555;
+   max-width: 800px;
+   text-align: center
+}
+#tribute-link {
+color: #1a73e8;
+text-decoration: none;
+font-weight: bold;     
+} 
+#tribute-link:hover {
+    text-decoration: underline; 
+    color: yellow
+}
+#wiki-link:visited {
+    color: #6f42c1; 
+}
